@@ -1,30 +1,251 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>upython</title>
-    <meta name="description" content="基于upython的下一代物联网解决方案">
-    <link rel="icon" href="/logo.png">
-  <link rel="manifest" href="/manifest.json">
-  <meta name="theme-color" content="#3eaf7c">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <link rel="apple-touch-icon" href="/icons/apple-touch-icon-152x152.png">
-  <link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#3eaf7c">
-  <meta name="msapplication-TileImage" content="/icons/msapplication-icon-144x144.png">
-  <meta name="msapplication-TileColor" content="#000000">
+<!-- saved from url=(0027)http://www.micropython.org/ -->
+<html lang="zh"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     
-    <link rel="preload" href="/assets/css/0.styles.c1eb94f3.css" as="style"><link rel="preload" href="/assets/js/app.370a6fb7.js" as="script"><link rel="preload" href="/assets/js/7.88877467.js" as="script"><link rel="preload" href="/assets/js/3.6b1717d0.js" as="script"><link rel="prefetch" href="/assets/js/10.584c3a23.js"><link rel="prefetch" href="/assets/js/11.805d2cd8.js"><link rel="prefetch" href="/assets/js/12.4700babe.js"><link rel="prefetch" href="/assets/js/13.676544c2.js"><link rel="prefetch" href="/assets/js/2.b998f8f1.js"><link rel="prefetch" href="/assets/js/4.925caf9d.js"><link rel="prefetch" href="/assets/js/5.04fb27fe.js"><link rel="prefetch" href="/assets/js/6.717edfc3.js"><link rel="prefetch" href="/assets/js/8.f3227598.js"><link rel="prefetch" href="/assets/js/9.f8760c7b.js">
-    <link rel="stylesheet" href="/assets/css/0.styles.c1eb94f3.css">
-  </head>
-  <body>
-    <div id="app" data-server-rendered="true"><div class="theme-container no-sidebar"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-exact-active router-link-active"><!----> <span class="site-name">upython</span></a> <div class="links" style="max-width:nullpx;"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/help/" class="nav-link">upython指南</a></div><div class="nav-item"><a href="/about/" class="nav-link">关于我们</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <div class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/help/" class="nav-link">upython指南</a></div><div class="nav-item"><a href="/about/" class="nav-link">关于我们</a></div> <!----></nav> <!----> <!----> </div> <div class="home"><div class="hero"><img src="/logo.png" alt="hero"> <h1>upython</h1> <p class="description">
-      基于upython的下一代物联网解决方案
-    </p> <p class="action"><a href="/guide/" class="nav-link action-button">起步 →</a></p></div> <!----> <div class="content custom"><div style="text-align: center"><!----></div> <div class="features"><div class="feature"><h2>upython</h2> <p>upython是基于纯C开发的一款嵌入式python虚拟机。</p></div> <div class="feature"><h2>upython IDE</h2> <p>upython IDE是一款支持upython的嵌入式集成开发环境</p></div> <div class="feature"><h2>upython物联网应用云平台</h2> <p> upython物联网云平台致力于为企业提供物联网的软件、云平台和大数据服务的全栈式解决方案，帮助企业轻松安全地连接设备、快速开发物联网应用，在物联网数据中提取价值，实现商业洞察。
-</p></div></div></div> <div class="footer">
-    Copyright © o2mation.cn
-  </div></div> <!----></div></div>
-    <script src="/assets/js/7.88877467.js" defer></script><script src="/assets/js/3.6b1717d0.js" defer></script><script src="/assets/js/app.370a6fb7.js" defer></script>
-  </body>
-</html>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head -->
+
+    <link rel="icon" href="http://www.o2mation.cn">
+
+    <title>嘉仪尔科技</title>
+
+    <link href="./res/bootstrap.min.css" rel="stylesheet">
+
+    <link href="./res/style.css" rel="stylesheet">
+
+    
+    <link href="./res/pygments.css" rel="stylesheet">
+    <link href="./res/style(1).css" rel="stylesheet">
+
+
+    <link href="./res/css" rel="stylesheet">
+    <link href="./res/css(1)" rel="stylesheet">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://www.o2mation.cn/">
+    <meta property="og:title" content="uPython - 在单片机上使用python">
+
+</head>
+
+<body>
+
+<nav class="navbar navbar-dark" role="navigation">
+    <div class="main-menu">
+        <a class="navbar-brand" href="http://www.o2mation.cn/">
+            <span>
+                <img src="./res/logo.png" width="60px">
+            </span>
+            <span style="font-size: 30px">
+                嘉仪尔科技
+            </span>
+        </a>
+
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+
+        <div id="navbar" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="./index.html">主页</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://gitee.com/edmund_wz/uPython/wikis">文档</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://gitee.com/edmund_wz/uPython">下载</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./contact.html">联系我们</a>
+            </li>
+        </ul>
+        </div>
+    </div>
+</nav>
+
+    <div id="sidebar" style="float:right;margin-right:16px;">
+
+    </div>
+
+    <div class="container">
+        
+
+<div class="headline">
+  <div class="row">
+    <div class="col-md-offset-1 col-md-5 col-xs-9">
+      <h1 class="huge-title">公司简介</h1>
+      <p>
+        武汉市嘉仪尔科技有限公司是一家致力于自动化控制的新型物联网高科技公司。公司拥有多项自主研发的产品与核心技术，其中uPython作为公司核心产品，将python编程语言运用到工业自动化以及物联网领域中，不仅节约了产品开发的人力成本，同时还提高了产品的开发效率。
+      </p>
+      <p>
+        作为华中科技大学海洋装备机电研究所战略合作伙伴，我们针对水下滑翔机研发了基于uPython控制系统，极大提高了系统开发效率，缩小了开发周期。
+      </p>
+    </div>
+  </div>
+
+  <div class="row" style="margin:70px 0;">
+    <div class="col-md-12 text-center">
+      <span style="margin: 0 2em;">
+        <a href="https://gitee.com/edmund_wz/uPython" class="red-button">获取uPython</a>
+      </span>
+      <span style="margin: 0 2em;">
+        <a href="https://gitee.com/edmund_wz/uPython/wikis" class="red-button" style="background-color:#33aa33">uPython文档</a>
+      </span>
+    </div>
+  </div>
+</div> <!-- headline -->
+
+<div class="row row-white">
+  <div class="col-md-12 text-center">
+    <h1> 水下滑翔机Underwater Glider </h1>
+  </div>
+  <div class="col-md-offset-1 col-md-5">
+    <p>
+    水下滑翔机是一种新型的水下机器人，通过调整自身浮力和姿态角获得前进动力。由于功耗极小，水下滑翔机
+    续航时间可以超过三个月、航行距离达上千公里。总体而言，水下滑翔机具备以下几个特点：
+    </p>
+    <p>
+      <ul>
+        <li> 噪声小 </li>
+        <li> 能耗低 </li>
+        <li> 投放回收方便 </li>
+        <li> 作业周期长 </li>
+        <li> 作业范围广 </li>
+        <li> 定制化程度高 </li>
+        <li> 应用领域广 </li>
+      </ul>
+    </p>
+  </div>
+  <div class="col-md-5">
+    <img src="./res/glider1.jpg" height="360px" width="360px" >
+  </div>
+</div>
+
+<div class="row row-white">
+  <div class="col-md-12 text-center">
+    <h1> Rapid物联网开发板 </h1>
+  </div>
+  <div class="col-md-5">
+    <img src="./res/rapid.png" height="300px" width="400px">
+  </div>
+  <div class="col-xs-2 col-md-5">
+    <p>
+    Rapid开发板是为uPython量身定制的一款开发板。资源配置如下：
+    </p>
+    <ul>
+      <li> STM32F103RE </li>
+      <li> 72 MHz Cortex M3 CPU </li>
+      <li> 512KB ROM、 64KB RAM </li>
+      <li> 支持Micro USB、 USB转232 </li>
+      <li> 支持Micro SD </li>
+      <li> RS485、 RS232、 以太网RJ45、 CAN总线、 GPRS和WIFI</li>
+      <li> 2个LED灯 </li>
+      <li> 3个按键 </li>
+      <li> GPIO </li>
+    </ul>
+  </div>
+  <div class="col-xs-12 col-md-8 col-md-offset-2 text-center">
+      <img src="./res/rapid_front.png" width="550px" class="img-responsive">
+  </div>
+</div>
+
+<div class="row row-orange">
+  <div class="col-md-12 text-center">
+    <h1> 其他产品简介 </h1>
+  </div>
+</div>
+
+<div class="row row-white">
+  <div class="col-md-12 text-center">
+    <h1> O2mation半实物仿真软件 </h1>
+  </div>
+  <div class="col-xs-6 col-xs-offset-3 col-md-offset-2 col-md-4">
+    <img src="./res/simulator.png" width="480px" class="img-responsive" >
+  </div>
+  <div class="col-xs-12 col-md-4">
+    <p>
+    半实物仿真软件是基于Python和Web技术开发的仿真设计软件。
+    该软件主要为水下滑翔机研究、设计人员提供组态化的仿真流程设计和系统控制设计。
+    </p>
+    <p>
+    该仿真平台被设计为开放式的开发平台，可以通过编写模块的方式提供更多组态化的驱动、人机交互和通信协议。
+    从而将业务流程和软件开发彻底分离，这样既可以提高开发效率，同时也增强了系统的稳健性。
+    </p>
+  </div>
+</div>
+
+<div class="row row-white">
+  <div class="col-md-12 text-center">
+    <h1> 换热器漏水报警装置 </h1>
+  </div>
+  <div class="col-md-offset-2 col-md-8">
+    <p>
+    基于uPython开发的一款换热器漏水报警装置。该设备主要特性有：
+    </p>
+    <p>
+    <ul>
+      <li> 可以区分淡水和海水 </li>
+      <li> 供电电源可以是220v交流、24v直流或者3节电池 </li>
+      <li> 使用电池时，待机时间可达3至5年 </li>
+      <li> 漏水时蜂鸣器报警、输出短路信号</li>
+    </ul>
+    </p>
+  </div>
+</div>
+
+<div class="row row-white">
+  <div class="col-md-12 text-center">
+    <h1> BMS电池保护板 </h1>
+  </div>
+  <div class="col-md-offset-2 col-md-8">
+    <p>
+    本产品是为某单位开发的一款军用锂电池保护板。该产品用于航空相关领域，对运行环境要求十分严格，目前已通过电磁兼容、高低温试验。下面是该产品相关功能指标：
+    </p>
+    <p>
+    <ul>
+      <li> 支持8串三元2.5V---4.25V电池，电池组标称电压29.6V </li>
+      <li> 通过显示屏连续显示电池电量及指示充电状态 </li>
+      <li> 支持电池过充保护 </li>
+      <li> 支持电池过放保护 </li>
+      <li> 支持电池过流保护、短路保护 </li>
+      <li> 支持电池低温高温充电保护 </li>
+      <li> 电池不充放电下进入休眠 </li>
+      <li> 弱电开关控制保护板通断 </li>
+      <li> 支持与上位机建立通讯接口 </li>
+    </ul>
+    </p>
+  </div>
+</div>
+
+
+        <div class="row" style="margin:30px 0;">
+          <div class="col-md-offset-2 col-md-8">
+          </div>
+        </div>
+    </div>
+
+<footer>
+    <div class="container footercontent">
+        <div class="row">
+            <div class="col-xs-12 col-sm-3 col-md-2 col-md-offset-2">
+                <h3>嘉仪尔科技</h3>
+                <ul>
+                    <li> <a href="http://www.o2mation.cn/">主页</a> </li>
+                    <li> <a href="https://gitee.com/edmund_wz/uPython/wikis">文档</a> </li>
+                    <li> <a href="https://gitee.com/edmund_wz/uPython">下载</a> </li>
+                    <li> <a href="./contact.html">联系我们</a> </li>
+                </ul>
+            </div>
+            <div class="col-xs-12 col-md-8 col-md-offset-2">
+                <p>© 2017-2018 武汉市嘉仪尔科技有限公司</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+</body></html>

@@ -1,0 +1,23 @@
+.headline {
+    padding: 90px 0;
+    margin-left: -15px;
+    margin-right: -15px;
+    background-image: url("../res/circuit.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+.headline .row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.pygments-python pre {
+    min-height: 24em;
+}
+
+#example-prev, #example-next {
+    border: 1px solid #999;
+    cursor: pointer;
+}
